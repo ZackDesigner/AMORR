@@ -23,13 +23,15 @@ body {
 }
 
 .card .face {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    border-radius: 10px;
-    overflow: hidden;
-    transition: .5s;
+	position: absolute;
+	width: 315px;
+	height: 100%;
+	backface-visibility: hidden;
+	border-radius: 10px;
+	overflow: hidden;
+	transition: .5s;
+	left: -13px;
+	top: -8px;
 }
 
 .card .front {
@@ -38,10 +40,11 @@ body {
 }
 
 .card .front img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+	position: absolute;
+	width: 316px;
+	height: 100%;
+	object-fit: cover;
+	left: 0px;
 }
 
 .card .front h3 {
